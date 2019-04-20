@@ -1,0 +1,47 @@
+platform :ios,'8.0'
+workspace '../StaticDemo.xcworkspace'
+
+
+target 'HYYLogic' do
+  project '../StaticLibDemo/HYYLogic/HYYLogic.xcodeproj'
+end
+
+####这个库只想跟JSONModel有关联
+#target 'HYYModel' do
+#  project '../MoreWork/HYYModel/HYYModel.xcodeproj'
+#end
+
+post_install do |installer_representation|
+  installer_representation.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      config.build_settings['ARCHS'] = 'armv7 armv7s arm64'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+    end
+  end
+end
+
+def shared_pods
+  pod 'Masonry', '~> 1.0.2'
+  pod 'AFNetworking', '~> 3.2.1'
+  pod 'JSONModel', '~> 1.8.0'
+end
+
+
+def debug_pods
+  pod 'Bugly' , '2.4.8'
+end
+
+#target 'StaticDemo' do
+#  shared_pods
+#end
+
+target 'StaticDemo' do
+  shared_pods
+  debug_pods
+end
+#
+#target 'CustomDemoDev' do
+#  shared_pods
+#  debug_pods
+#end

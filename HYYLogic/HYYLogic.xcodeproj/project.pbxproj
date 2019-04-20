@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ECB9F7B6472B526A73B615B /* libPods-HYYLogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59168941FD690D033946D1BA /* libPods-HYYLogic.a */; };
+		85C87866226AC754004504BE /* HYYLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C87865226AC754004504BE /* HYYLogic.m */; };
+		85C87867226AC754004504BE /* HYYLogic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C87864226AC754004504BE /* HYYLogic.h */; };
+		85C87896226AC9A5004504BE /* SearchObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C87895226AC9A5004504BE /* SearchObject.m */; };
+		85C87897226ACA10004504BE /* SearchObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C87894226AC9A5004504BE /* SearchObject.h */; };
+		85C8789F226ACB5A004504BE /* NSArray+SafeSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C8789D226ACB5A004504BE /* NSArray+SafeSet.h */; };
+		85C878A0226ACB5A004504BE /* NSArray+SafeSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8789E226ACB5A004504BE /* NSArray+SafeSet.m */; };
+		85C878A1226ACBCF004504BE /* NSArray+SafeSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8789D226ACB5A004504BE /* NSArray+SafeSet.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85C8785F226AC754004504BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				85C878A1226ACBCF004504BE /* NSArray+SafeSet.h in CopyFiles */,
+				85C87897226ACA10004504BE /* SearchObject.h in CopyFiles */,
+				85C87867226AC754004504BE /* HYYLogic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2AD1963BDABA092FEABA713E /* Pods-HYYLogic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYYLogic.release.xcconfig"; path = "Target Support Files/Pods-HYYLogic/Pods-HYYLogic.release.xcconfig"; sourceTree = "<group>"; };
+		59168941FD690D033946D1BA /* libPods-HYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYYLogic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C87861226AC754004504BE /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C87864226AC754004504BE /* HYYLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYLogic.h; sourceTree = "<group>"; };
+		85C87865226AC754004504BE /* HYYLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYLogic.m; sourceTree = "<group>"; };
+		85C87894226AC9A5004504BE /* SearchObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchObject.h; sourceTree = "<group>"; };
+		85C87895226AC9A5004504BE /* SearchObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchObject.m; sourceTree = "<group>"; };
+		85C8789D226ACB5A004504BE /* NSArray+SafeSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeSet.h"; sourceTree = "<group>"; };
+		85C8789E226ACB5A004504BE /* NSArray+SafeSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeSet.m"; sourceTree = "<group>"; };
+		B3E95C251FF60948D0E73990 /* Pods-HYYLogic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYYLogic.debug.xcconfig"; path = "Target Support Files/Pods-HYYLogic/Pods-HYYLogic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85C8785E226AC754004504BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECB9F7B6472B526A73B615B /* libPods-HYYLogic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF5154EB2EA9006C8B17F55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59168941FD690D033946D1BA /* libPods-HYYLogic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C87858226AC754004504BE = {
+			isa = PBXGroup;
+			children = (
+				85C87863226AC754004504BE /* HYYLogic */,
+				85C87862226AC754004504BE /* Products */,
+				F70280E84B1792AEE77F5E80 /* Pods */,
+				2DF5154EB2EA9006C8B17F55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85C87862226AC754004504BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85C87861226AC754004504BE /* libHYYLogic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85C87863226AC754004504BE /* HYYLogic */ = {
+			isa = PBXGroup;
+			children = (
+				85C87864226AC754004504BE /* HYYLogic.h */,
+				85C87865226AC754004504BE /* HYYLogic.m */,
+				85C87894226AC9A5004504BE /* SearchObject.h */,
+				85C87895226AC9A5004504BE /* SearchObject.m */,
+				85C8789D226ACB5A004504BE /* NSArray+SafeSet.h */,
+				85C8789E226ACB5A004504BE /* NSArray+SafeSet.m */,
+			);
+			path = HYYLogic;
+			sourceTree = "<group>";
+		};
+		F70280E84B1792AEE77F5E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3E95C251FF60948D0E73990 /* Pods-HYYLogic.debug.xcconfig */,
+				2AD1963BDABA092FEABA713E /* Pods-HYYLogic.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85C87898226ACA44004504BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C8789F226ACB5A004504BE /* NSArray+SafeSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85C87860226AC754004504BE /* HYYLogic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C8786A226AC754004504BE /* Build configuration list for PBXNativeTarget "HYYLogic" */;
+			buildPhases = (
+				D685523F0D57EAED9897CAEE /* [CP] Check Pods Manifest.lock */,
+				85C87898226ACA44004504BE /* Headers */,
+				85C8785D226AC754004504BE /* Sources */,
+				85C8785E226AC754004504BE /* Frameworks */,
+				85C8785F226AC754004504BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYYLogic;
+			productName = HYYLogic;
+			productReference = 85C87861226AC754004504BE /* libHYYLogic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85C87859226AC754004504BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = huyiyong;
+				TargetAttributes = {
+					85C87860226AC754004504BE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 85C8785C226AC754004504BE /* Build configuration list for PBXProject "HYYLogic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85C87858226AC754004504BE;
+			productRefGroup = 85C87862226AC754004504BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85C87860226AC754004504BE /* HYYLogic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D685523F0D57EAED9897CAEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYYLogic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85C8785D226AC754004504BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C87896226AC9A5004504BE /* SearchObject.m in Sources */,
+				85C87866226AC754004504BE /* HYYLogic.m in Sources */,
+				85C878A0226ACB5A004504BE /* NSArray+SafeSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		85C87868226AC754004504BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85C87869226AC754004504BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85C8786B226AC754004504BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E95C251FF60948D0E73990 /* Pods-HYYLogic.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../HYYCommon\"",
+					"\"$(SRCROOT)\"",
+				);
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85C8786C226AC754004504BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD1963BDABA092FEABA713E /* Pods-HYYLogic.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../HYYCommon\"",
+					"\"$(SRCROOT)\"",
+				);
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85C8785C226AC754004504BE /* Build configuration list for PBXProject "HYYLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C87868226AC754004504BE /* Debug */,
+				85C87869226AC754004504BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C8786A226AC754004504BE /* Build configuration list for PBXNativeTarget "HYYLogic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C8786B226AC754004504BE /* Debug */,
+				85C8786C226AC754004504BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85C87859226AC754004504BE /* Project object */;
+}
